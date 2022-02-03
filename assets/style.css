@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+}
+.hero{
+    height: 90vh;
+}
+
+.col{
+    height: 100vh;
+}
+.hero-bg{
+    background: url('./images/024-p-1080.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    margin-top: 200px;
+}
+.text h3{
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+.about{
+    margin-top: 250px;
+    height : 70vh;
+    margin-bottom: 100px;
+}
+.about h3{
+    color: #535353;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.about h1{
+    font-weight: 600
+}
+
+
+
+/* CSS */
+.button-66 {
+  background-color: #f6b93b;
+  border-radius: 0;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 40px;
+  min-width: 120px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  margin-top: 50px;
+}
+
+.button-66:hover {
+  background-color: #dac133;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
